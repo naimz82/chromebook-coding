@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  position: relative;
+  font-family: sans-serif;
+}
+
+h1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 6px;
+  background-color: #be1e2d;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
